@@ -85,7 +85,7 @@ class Player (pygame.sprite.Sprite):
 P1 = Player()
 E1 = Enemy()
 
-
+# Cоздали группу врагов
 enemies = pygame.sprite.Group()
 enemies.add(E1)
 all_sprites = pygame.sprite.Group()
